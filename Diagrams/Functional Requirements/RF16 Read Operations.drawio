@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.7">
+  <diagram name="Página-1" id="TMDoCD8hCcpHIJEySzZF">
+    <mxGraphModel dx="727" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UQOomTZAaCyZAPaUyG3R-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcQdOetUA6qP5Ii0NC-2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Zbe0JVSpx2qkuPcfZEY-32" target="7Zbe0JVSpx2qkuPcfZEY-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-32" value="&lt;div&gt;User is on&amp;nbsp;&lt;/div&gt;&lt;div&gt;operations page&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="358" y="40" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-37" value="&lt;div&gt;Return response entity&amp;nbsp;&lt;/div&gt;&lt;div&gt;with operations list&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="338" y="510" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Zbe0JVSpx2qkuPcfZEY-39" target="7Zbe0JVSpx2qkuPcfZEY-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-39" value="Get Authorization token from header" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="7Zbe0JVSpx2qkuPcfZEY-41" target="7Zbe0JVSpx2qkuPcfZEY-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="510.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-46" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Zbe0JVSpx2qkuPcfZEY-45">
+          <mxGeometry x="-0.1722" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="7Zbe0JVSpx2qkuPcfZEY-41" target="7Zbe0JVSpx2qkuPcfZEY-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-49" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Zbe0JVSpx2qkuPcfZEY-48">
+          <mxGeometry x="-0.0824" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-41" value="&lt;div&gt;User&amp;nbsp;is&amp;nbsp;&lt;/div&gt;&lt;div&gt;authorized to create&amp;nbsp;new&amp;nbsp;&lt;/div&gt;&lt;div&gt;operation?&lt;/div&gt;" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="358" y="350" width="112" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7Zbe0JVSpx2qkuPcfZEY-42" target="7Zbe0JVSpx2qkuPcfZEY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-42" value="Get User from token" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-47" value="Return error response entity" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="562" y="385" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zbe0JVSpx2qkuPcfZEY-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7Zbe0JVSpx2qkuPcfZEY-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="560.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

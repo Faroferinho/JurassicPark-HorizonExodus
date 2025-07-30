@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.7">
+  <diagram name="Página-1" id="TMDoCD8hCcpHIJEySzZF">
+    <mxGraphModel dx="872" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9B5jGg0RTKYAUVAofu6-1" target="A9B5jGg0RTKYAUVAofu6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-1" value="User Click Login" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="374" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-3" value="User redirected to the page" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="347.33" y="410" width="133.33" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9B5jGg0RTKYAUVAofu6-4" target="A9B5jGg0RTKYAUVAofu6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-4" value="&lt;div&gt;User fill email and password&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9B5jGg0RTKYAUVAofu6-5" target="A9B5jGg0RTKYAUVAofu6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9B5jGg0RTKYAUVAofu6-5" target="A9B5jGg0RTKYAUVAofu6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-5" value="&lt;div&gt;E-Mail and&lt;/div&gt;&lt;div&gt;&amp;nbsp;Password are&amp;nbsp;&lt;/div&gt;&lt;div&gt;correct?&lt;/div&gt;" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="348" y="240" width="132" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A9B5jGg0RTKYAUVAofu6-8" target="A9B5jGg0RTKYAUVAofu6-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A9B5jGg0RTKYAUVAofu6-8" value="Show error message" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
