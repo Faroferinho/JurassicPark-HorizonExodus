@@ -55,93 +55,93 @@ This project would need a few smart choices to be have a smooth flow of one oper
 
 ### Context Diagram
 
-![Diagrams\Context Diagram.drawio.png](Diagrams\Context_Diagram.drawio.png)
+![Diagrams/Context Diagram.drawio.png](Diagrams/Context_Diagram.drawio.png)
 
 ### Entity Relationship
 
-![Diagrams\Entity_Relationship\Entity_Relationship_Diagram.drawio.png](Diagrams\Entity_Relationship\Entity_Relationship_Diagram.drawio.png)
+![Diagrams/Entity_Relationship/Entity_Relationship_Diagram.drawio.png](Diagrams/Entity_Relationship/Entity_Relationship_Diagram.drawio.png)
 
 ### Dinosaurs
 
-![Diagrams\Entity Relationship\Entity Relationship.drawio.png](Diagrams\Entity_Relationship\Entity_Relationship.drawio.png)
+![Diagrams/Entity Relationship/Entity Relationship.drawio.png](Diagrams/Entity_Relationship/Entity_Relationship.drawio.png)
 
 ## Data-Flow Diagram
 
 ### RF - 1: Login
 
-![Diagrams\Functional Requirements\RF1 Login.drawio.png](Diagrams\Functional_Requirements\RF1_Login.drawio.png)
+![Diagrams/Functional Requirements/RF1 Login.drawio.png](Diagrams/Functional_Requirements/RF1_Login.drawio.png)
 
 ### RF - 2: Register
 
-![Diagrams\Functional Requirements\RF2 Register.drawio.png](Diagrams\Functional_Requirements\RF2_Register.drawio.png)
+![Diagrams/Functional Requirements/RF2 Register.drawio.png](Diagrams/Functional_Requirements/RF2_Register.drawio.png)
 
 ### RF - 3: Animal Display
 
-![Diagrams\Functional Requirements\RF3 Animal Display.drawio.png](Diagrams\Functional_Requirements\RF3_Animal_Display.drawio.png)
+![Diagrams/Functional Requirements/RF3 Animal Display.drawio.png](Diagrams/Functional_Requirements/RF3_Animal_Display.drawio.png)
 
 ### RF - 4: Animal Generation
 
-![Diagrams\Functional Requirements\RF4 Animal Generation.drawio.png](Diagrams\Functional_Requirements\RF4_Animal_Generation.drawio.png)
+![Diagrams/Functional Requirements/RF4 Animal Generation.drawio.png](Diagrams/Functional_Requirements/RF4_Animal_Generation.drawio.png)
 
 ### RF - 5.1: Animal Behavior - BigCarnivore
 
-![Diagrams\Functional Requirements\RF5.1 Animal Interaction Carnivore.drawio.png](Diagrams\Functional_Requirements\RF5.1_Animal_Interaction_Carnivore.drawio.png)
+![Diagrams/Functional Requirements/RF5.1 Animal Interaction Carnivore.drawio.png](Diagrams/Functional_Requirements/RF5.1_Animal_Interaction_Carnivore.drawio.png)
 
 ### RF - 5.4: Animal Behavior - Marginocephalia
 
-![Diagrams\Functional Requirements\RF5.4 Animal Interaction Marginocephalia Thyreophora.drawio.png](Diagrams\Functional_Requirements\RF5.4_Animal_Interaction_Marginocephalia_Thyreophora.drawio.png)
+![Diagrams/Functional Requirements/RF5.4 Animal Interaction Marginocephalia Thyreophora.drawio.png](Diagrams/Functional_Requirements/RF5.4_Animal_Interaction_Marginocephalia_Thyreophora.drawio.png)
 
 ### RF - 6: Animal Behavior Log
 
-![Diagrams\Functional Requirements\RF6 Animal Behavior Log.drawio.png](Diagrams\Functional_Requirements\RF6_Animal_Behavior_Log.drawio.png)
+![Diagrams/Functional Requirements/RF6 Animal Behavior Log.drawio.png](Diagrams/Functional_Requirements/RF6_Animal_Behavior_Log.drawio.png)
 
 ### RF - 7: Species Listing
 
-![Diagrams\Functional Requirements\RF7 Species Listing.drawio.png](Diagrams\Functional_Requirements\RF7_Species_Listing.drawio.png)
+![Diagrams/Functional Requirements/RF7 Species Listing.drawio.png](Diagrams/Functional_Requirements/RF7_Species_Listing.drawio.png)
 
 ### RF - 8: Feedback
 
-![Diagrams\Functional Requirements\RF8 Feedback.drawio.png](Diagrams\Functional_Requirements\RF8_Feedback.drawio.png)
+![Diagrams/Functional Requirements/RF8 Feedback.drawio.png](Diagrams/Functional_Requirements/RF8_Feedback.drawio.png)
 
 ### RF - 9: Email Response
 
-![Diagrams\Functional Requirements\RF9 Email Response.drawio.png](Diagrams\Functional_Requirements\RF9_Email_Response.drawio.png)
+![Diagrams/Functional Requirements/RF9 Email Response.drawio.png](Diagrams/Functional_Requirements/RF9_Email_Response.drawio.png)
 
 ### RF - 10: Create Worker
 
-![Diagrams\Functional Requirements\RF10 Create Worker.drawio.png](Diagrams\Functional_Requirements\RF10_Create_Worker.drawio.png)
+![Diagrams/Functional Requirements/RF10 Create Worker.drawio.png](Diagrams/Functional_Requirements/RF10_Create_Worker.drawio.png)
 
 ### RF - 11: Edit Worker
 
-![Diagrams\Functional Requirements\RF11 Edit Worker.drawio.png](Diagrams\Functional_Requirements\RF11_Edit_Worker.drawio.png)
+![Diagrams/Functional Requirements/RF11 Edit Worker.drawio.png](Diagrams/Functional_Requirements/RF11_Edit_Worker.drawio.png)
 
 ### RF - 12: List Workers
 
-![Diagrams\Functional Requirements\RF12 List Workers.drawio.png](Diagrams\Functional_Requirements\RF12_List_Workers.drawio.png)
+![Diagrams/Functional Requirements/RF12 List Workers.drawio.png](Diagrams/Functional_Requirements/RF12_List_Workers.drawio.png)
 
 ### RF - 13: Delete Worker
 
-![Diagrams\Functional Requirements\RF13 Delete Worker.drawio.png](Diagrams\Functional_Requirements\RF13_Delete_Worker.drawio.png)
+![Diagrams/Functional Requirements/RF13 Delete Worker.drawio.png](Diagrams/Functional_Requirements/RF13_Delete_Worker.drawio.png)
 
 ### RF - 14: Create Operation
 
-![Diagrams\Functional Requirements\RF14 Create Operation.drawio.png](Diagrams\Functional_Requirements\RF14_Create_Operation.drawio.png)
+![Diagrams/Functional Requirements/RF14 Create Operation.drawio.png](Diagrams/Functional_Requirements/RF14_Create_Operation.drawio.png)
 
 ### RF - 15: Edit Operation
 
-![Diagrams\Functional Requirements\RF15 Edit Operations.drawio.png](Diagrams\Functional_Requirements\RF15_Edit_Operations.drawio.png)
+![Diagrams/Functional Requirements/RF15 Edit Operations.drawio.png](Diagrams/Functional_Requirements/RF15_Edit_Operations.drawio.png)
 
 ### RF - 16: List Operations
 
-![Diagrams\Functional Requirements\RF16 Read Operations.drawio.png](Diagrams\Functional_Requirements\RF16_Read_Operations.drawio.png)
+![Diagrams/Functional Requirements/RF16 Read Operations.drawio.png](Diagrams/Functional_Requirements/RF16_Read_Operations.drawio.png)
 
 ### RF - 17: Remove Operation
 
-![Diagrams\Functional Requirements\RF17 Delete Operation.drawio.png](Diagrams\Functional_Requirements\RF17_Delete_Operation.drawio.png)
+![Diagrams/Functional Requirements/RF17 Delete Operation.drawio.png](Diagrams/Functional_Requirements/RF17_Delete_Operation.drawio.png)
 
 ### RF - 18: Conclude Operation
 
-![Diagrams\Functional Requirements\RF18 Conclude Operation.drawio.png](Diagrams\Functional_Requirements\RF18_Conclude_Operation.drawio.png)
+![Diagrams/Functional Requirements/RF18 Conclude Operation.drawio.png](Diagrams/Functional_Requirements/RF18_Conclude_Operation.drawio.png)
 
 # Data
 
