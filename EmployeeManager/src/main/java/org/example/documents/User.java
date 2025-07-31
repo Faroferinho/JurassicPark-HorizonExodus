@@ -14,6 +14,18 @@ public class User {
     private String password;
     private int type;
 
+    public User(){
+
+    }
+
+    public User(String id, String name, String email, String password, int type){
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.type = type;
+    }
+
     public User(UserDTO dto){
         name = dto.getName();
         email = dto.getEmail();
