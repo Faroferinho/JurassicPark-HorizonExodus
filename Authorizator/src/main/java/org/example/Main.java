@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @OpenAPIDefinition(
         info = @Info(
                 title = "Employee Controller",
-                version = "1.1",
+                version = "1.0.1",
                 description = "This API provides a robust and secure solution for managing user" +
                         " identities within your application, handling everything from initial registration" +
                         " to secure login and ongoing authentication. It offers a standardized way to" +

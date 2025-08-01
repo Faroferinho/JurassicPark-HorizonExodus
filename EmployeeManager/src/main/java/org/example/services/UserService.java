@@ -1,6 +1,7 @@
 package org.example.services;
 
 import org.example.documents.User;
+import org.example.documents.dto.LoginDTO;
 import org.example.documents.dto.UserDTO;
 import org.example.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,5 +39,11 @@ public class UserService implements CRUDServices<User, UserDTO>{
     @Override
     public void deleteByID(String id) {
         repository.deleteById(id);
+    }
+
+    public boolean verifyUser(LoginDTO dto){
+        User u = repository.findFirstByEmail(dto.getEmail()).get();
+
+        return u.getEmail().equals(dto.getEmail()) && u.getPassword().equals(dto.getPassword());
     }
 }
