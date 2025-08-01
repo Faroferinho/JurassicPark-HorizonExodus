@@ -41,9 +41,19 @@ public class UserService implements CRUDServices<User, UserDTO>{
         repository.deleteById(id);
     }
 
-    public boolean verifyUser(LoginDTO dto){
-        User u = repository.findFirstByEmail(dto.getEmail()).get();
+    public boolean checkAuthentication(LoginDTO dto){
+        Optional<User> optional = repository.findFirstByEmail(dto.getEmail());
 
-        return u.getEmail().equals(dto.getEmail()) && u.getPassword().equals(dto.getPassword());
+        if (optional.isPresent()) {
+            User u = optional.get();
+
+            return u.getEmail().equals(dto.getEmail()) && u.getPassword().equals(dto.getPassword());
+        }
+
+        return false;
+    }
+
+    public boolean userRegistered(String email){
+        return repository.findFirstByEmail(email).isEmpty();
     }
 }
