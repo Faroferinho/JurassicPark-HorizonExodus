@@ -11,9 +11,7 @@ import org.example.safety.JWTTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.http.client.reactive.ReactorClientHttpConnector;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.reactive.function.BodyInserter;
 import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -117,5 +115,16 @@ public class AuthenticationController {
         }
 
         throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "User already exits");
+    }
+
+    //TODO - Add Request Header String user to improve safety!
+    @GetMapping(Constants.VERIFY)
+    private ResponseEntity<String> verifyValidity(@RequestHeader String Authorization){
+        System.out.println("Entered verifyValidity");
+        if (tokenProvider.validateToken(Authorization)){
+            System.out.println("User " + tokenProvider.getUserFromToken(Authorization) + " validated!");
+            return ResponseEntity.ok(Authorization);
+        }
+        throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Token Invalid");
     }
 }

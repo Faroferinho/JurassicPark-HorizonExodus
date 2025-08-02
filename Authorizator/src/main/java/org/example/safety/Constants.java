@@ -5,6 +5,7 @@ public class Constants {
     public static final String URL = "api/v1/";
     public static final String LOGIN = URL + "login/";
     public static final String SIGNIN = URL + "signin/";
+    public static final String VERIFY = URL + "verify/";
 
     public static final long VALIDITY = 3600000;
 
