@@ -1,0 +1,73 @@
+/*
+App.css
+Colors:
+Yellow: #ffc018
+Red: #ec0c0c
+White: #ffffff
+Gray: #282c34
+Black: #000000
+*/
+
+/*
+@font-face {
+    font-family: 'Jurassic Park'; a name to be used later
+    src: "" URL to font
+}
+*/
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 80px;
+  pointer-events: none;
+  float: left;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.title {
+  color: #ffc018;
+  font-weight: bold;
+  font-family: 'Jurassic Park', sans-serif; /* Assuming the font is loaded */
+  font-size: 2rem;
+  margin-left: 10px;
+  float: right;
+}
+
+.spacer {
+  align-items: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
