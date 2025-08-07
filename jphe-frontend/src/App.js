@@ -15,7 +15,7 @@ function App() {
 
       <Router>
         {/* Navigation Bar */}
-        <nav className='w3-bar w3-black'>
+        <nav className='w3-bar w3-black w3-card-4'>
           <Link to="/">
             <div className="logo w3-bar-item">
               <h2 className='title'>
@@ -27,19 +27,19 @@ function App() {
 
           <Link to="Login">
             <div className="spacer w3-button w3-bar-item">
-              Login
+              👤 Login
             </div>
           </Link>
 
           <Link to="Register">
             <div className="spacer w3-button w3-bar-item">
-              Register
+              👥 Register
             </div>
           </Link>
 
           <Link to="AboutUs">
             <div className="spacer w3-button w3-bar-item">
-              About InGen
+              🧬 About InGen
             </div>
           </Link>
         </nav>
@@ -58,9 +58,9 @@ function App() {
         
       </header>
       */}
-      
+
       <footer className="App-footer">
-        <p>© 1987 - 2025 InGen. All rights reserved.</p>
+        <p>© 1983 - 2025 InGen. All rights reserved.</p>
       </footer>
     </div>
   );
