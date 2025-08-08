@@ -6,7 +6,12 @@ import { Route, Routes, BrowserRouter as Router, Link } from 'react-router-dom';
 import Home from './pages/home.js';
 import Login from './pages/login.js';
 import Register from './pages/register.js';
+import SpeciesIndex from './pages/speciesIndex.js';
 import AboutUs from './pages/aboutUs.js';
+
+import OperationsBoard from './pages/operationsBoard.js';
+import Actions from './pages/actions.js';
+import UserPage from './pages/user-page.js';
 
 function App() {
   return (
@@ -37,9 +42,35 @@ function App() {
             </div>
           </Link>
 
+          <Link to="SpeciesIndex">
+            <div className="spacer w3-button w3-bar-item">
+              🦖 Species Index
+            </div>
+          </Link>
+
           <Link to="AboutUs">
             <div className="spacer w3-button w3-bar-item">
               🧬 About InGen
+            </div>
+          </Link>
+
+          <div className="spacer w3-bar-item" style={{flexGrow: 3}}></div>
+
+          <Link to="OperationsBoard">
+            <div className="spacer w3-button w3-bar-item">
+              ⚙️ Operations Board
+            </div>
+          </Link>
+          
+          <Link to="Actions">
+            <div className="spacer w3-button w3-bar-item">
+              🛠️ Actions
+            </div>
+          </Link>
+
+          <Link to="UserPage">
+            <div className="spacer w3-button w3-bar-item">
+              👤 User Page
             </div>
           </Link>
         </nav>
@@ -48,7 +79,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/SpeciesIndex" element={<SpeciesIndex />} />
           <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/OperationsBoard" element={<OperationsBoard />} />
+          <Route path="/Actions" element={<Actions />} />
+          <Route path="/UserPage" element={<UserPage />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Router>

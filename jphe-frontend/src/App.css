@@ -17,9 +17,10 @@ Colors:
 body {
   margin: 0;
   padding: 0;
-  background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Ff%2F5%2F6%2F464396-top-amazon-rainforest-wallpaper-2560x1600-for-windows.jpg&f=1&nofb=1&ipt=df112482fdf5727179e2384bfe75d50bdece5dd559bdd2a739cf7d7f9455ee25https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Ff%2F5%2F6%2F464396-top-amazon-rainforest-wallpaper-2560x1600-for-windows.jpg&f=1&nofb=1&ipt=df112482fdf5727179e2384bfe75d50bdece5dd559bdd2a739cf7d7f9455ee25') no-repeat center;
+  background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Ff%2F5%2F6%2F464396-top-amazon-rainforest-wallpaper-2560x1600-for-windows.jpg&f=1&nofb=1&ipt=df112482fdf5727179e2384bfe75d50bdece5dd559bdd2a739cf7d7f9455ee25https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Ff%2F5%2F6%2F464396-top-amazon-rainforest-wallpaper-2560x1600-for-windows.jpg&f=1&nofb=1&ipt=df112482fdf5727179e2384bfe75d50bdece5dd559bdd2a739cf7d7f9455ee25') no-repeat center center fixed;
   color: white;
   font-family: 'Jurassic Park', sans-serif; /* Assuming the font is loaded */
+  background-color: #000000;
 }
 
 .App-header {
@@ -103,8 +104,8 @@ nav {
   color: white;
   padding: 50px;
   margin: 35px;
-  margin-left: 30vw;
-  max-width: 40vw;
+  margin-left: 33vw;
+  max-width: 34vw;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   min-height: 75vh;
